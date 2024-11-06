@@ -3,11 +3,11 @@
 ## Objective
 To practice building full-stack applications, in this assignment, you will be expanding upon HW4 to add user signup, login, and game logging.
 
-The frontend folder has already been set up for React. However, if you choose another framework, feel free to delete the files in that folder and follow its getting started guide.
+The frontend and backend folders have already been set up for React and Express, respectively. However, if you would like to use other frameworks, feel free to do so (so as long as all requirements are fulfilled).
 
-Note: 
+Note:
 - You do not need to choose the same game you made for HW2, HW3, and HW4. Feel free to choose any game from the list provided in HW2.
-- This assignment, meeting game-specific requirements is optional and will not be graded for.
+- For this assignment, I will not be grading for game functionality. Just make sure the app does not crash and can demonstrate all requirements.
 
 ## Running Both Apps
 To run both the React and Express apps, simply open 2 terminal and follow the guides given in each folder's `README.md` file.
@@ -15,9 +15,12 @@ To run both the React and Express apps, simply open 2 terminal and follow the gu
 ## Template Code Explained
 
 ### React Template
-Here, I have provided a very basic template for building a React app. It includes page routing via the React Router library in `frontend/src/App.jsx` and a context for passing data, such as the user data of whom we are logged into, throughout the entire application in `frontend/src/contexts/GlobalContext.jsx`. I recommend going through each file and reading the comments to better understand the code and my intention with it.
+Here, I have provided a very basic template for building React apps. It includes page routing via the React Router library in `frontend/src/App.jsx` and a context for passing user data (and potentially any other data you desire) throughout the application in `frontend/src/contexts/GlobalContext.jsx`. I recommend going through each file and reading the comments to better understand the code and my intention with it.
 
-Note: Feel free to use this template for hackathons like BoilerMake if you like.
+### Express Template
+Here, I have provided a minimial Express app. It includes middleware for handling potential CORS issues and request body JSON parsing middleware.
+
+Note: You have my permission to use these templates for hackathons (like BoilerMake), personal projects, etc.
 
 ## Instructions/Requirements
 
